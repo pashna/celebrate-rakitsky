@@ -38,6 +38,7 @@ $("#button").click(function(e) {
 
     setTimeout(function() {
         $(".display-none").css("opacity", 1);
+        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
     }, 10000);
 
 })
