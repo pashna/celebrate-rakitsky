@@ -38,9 +38,6 @@ $("#button").click(function(e) {
 
     setTimeout(function() {
         $(".display-none").css("opacity", 1);
-    }, 6000);
+    }, 10000);
 
-    setTimeout(function() {
-        window.scrollTo(0,document.body.scrollHeight);
-    }, 8000)
 })
