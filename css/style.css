@@ -13,7 +13,7 @@ body {
 	margin: 0 auto;
 	width:140px;
     position: relative;
-    top: 30px;
+    top: 10px;
     z-index: 100;
     opacity: 0
 }
@@ -27,7 +27,7 @@ body {
 
 .face {
 	position: relative;
-	top: -25px;
+	top: -60px;
 	z-index: 50;
 	display: block;
 	margin: 0 auto;
